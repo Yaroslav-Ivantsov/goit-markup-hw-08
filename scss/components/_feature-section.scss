@@ -1,9 +1,12 @@
 .feature {
-    @include pading-section;
+    // @include pading-section;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
 }
 
 .feature__wrap {
-    @include container;
+    // @include container;
 }
 
 
