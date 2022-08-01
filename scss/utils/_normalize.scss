@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+body {
+    color: var(--secondary-text-colar);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* Убираю точки в списках */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

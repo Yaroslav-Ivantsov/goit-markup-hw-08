@@ -1,0 +1,12 @@
+.logo {
+    @include logo-modification;
+
+    &__start {
+        color: var(--acent-text-color);
+    }
+
+    &__end {
+        color: var(--black-text-color);
+    }
+}
+

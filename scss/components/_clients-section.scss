@@ -1,0 +1,44 @@
+.clients {
+    @include pading-section;
+}
+
+.clients__wrap {
+    @include container;
+}
+
+.clients__title {
+    @include title-modification;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.companies__card:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.companies__link {
+    @include flex-centred;
+    width: 170px;
+    height: 92px;
+    fill: var(--soc-main-colar);
+    border: 1px solid var(--soc-main-colar);
+    border-radius: 4px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--acent-text-color);
+        border: 1px solid var(--acent-text-color);
+    }
+}
+
+
+.companies__logo {
+    width: 106px;
+    height: 60px;
+}

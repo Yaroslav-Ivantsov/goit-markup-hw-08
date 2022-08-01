@@ -1,0 +1,54 @@
+.feature {
+    @include pading-section;
+}
+
+.feature__wrap {
+    @include container;
+}
+
+
+
+.feature__title {
+    @include title-modification;
+    display: none;
+}
+
+.feature__list {
+    @include list-modification;
+}
+
+.feature__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature__icon {
+    @include flex-centred;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--primery-background-color);
+}
+
+.feature__svg {
+    height: 70px;
+    width: 70px;
+}
+
+.feature__subtitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 270px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+
+.feature__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}

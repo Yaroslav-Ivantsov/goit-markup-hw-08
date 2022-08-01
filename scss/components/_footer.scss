@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-background-color);
+}
+
+.footer__wrap {
+    display: flex;
+    align-items: baseline;
+    @include container;
+}

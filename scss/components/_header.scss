@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid var(--br-header-colar);
+
+    &__wrap {
+        align-items: center;
+        display: flex;
+        @include container
+    }
+    
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+}
