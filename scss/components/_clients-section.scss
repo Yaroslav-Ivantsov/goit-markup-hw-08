@@ -1,29 +1,88 @@
 .clients {
-    @include pading-section;
+    padding-top: 60px;
+    padding-bottom: 68px;
+
+    @media screen and (min-width:768px){
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
+    // @include pading-section;
 }
 
 .clients__wrap {
-    @include container;
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    @media screen and (min-width:480px) {
+        width: 480px;
+    }
+    
+    @media screen and (min-width:768px) {
+        width: 768px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        width: 1200px;
+    }
+    // @include container;
 }
 
 .clients__title {
-    @include title-modification;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-text-color);
+
+    @media screen and (min-width: 1200px) {
+        @include title-modification;
+    }
+  
 }
 
 .companies {
     display: flex;
-    justify-content: center;
-    margin: 0;
+    @media screen and (max-width:1199px) {
+        flex-wrap: wrap;
+        margin: -15px;
+    }
+
+    // justify-content: center;
+    // margin: 0;
 }
 
-.companies__card:not(:last-child) {
-    margin-right: 30px;
+.companies__card {
+    @media screen and (max-width:1199px) {
+        margin: 15px;
+    }
+
+    @media screen and (min-width:1200px) {
+        margin-left: 30px;
+            
+        &:first-child {
+            margin-left: 0;
+        }
+    }         
+
 }
+
+// .companies__card:not(:last-child) {
+//     margin-right: 30px;
+// }
 
 
 .companies__link {
     @include flex-centred;
-    width: 170px;
+    width: 210px;
     height: 92px;
     fill: var(--soc-main-colar);
     border: 1px solid var(--soc-main-colar);
@@ -34,6 +93,14 @@
     &:focus {
         fill: var(--acent-text-color);
         border: 1px solid var(--acent-text-color);
+    }
+
+    @media screen and (min-width:768px) {
+        width: 226px;
+    }
+    
+    @media screen and (min-width:1200px) {
+        width: 170px;
     }
 }
 

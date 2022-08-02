@@ -1,56 +1,56 @@
 .team {
-    @include pading-section;
+    // @include pading-section;
     background-color: var(--primery-background-color);
 }
 
 .team__wrap {
-    @include container;
+    // @include container;
 }
 
 .team__title {
-    @include title-modification;
+    // @include title-modification;
 }
 
 
 .team-members {
-    justify-content: space-between;
-    display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    // justify-content: space-between;
+    // display: flex;
+    // margin-top: 0;
+    // margin-bottom: 0;
+    // padding-left: 0;
+    // padding-right: 0;
 }
 
 .team-members__card {
-    text-align: center;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background: var(--white-text-color);
+    // text-align: center;
+    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    // border-radius: 0px 0px 4px 4px;
+    // background: var(--white-text-color);
 
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
+    // &:not(:last-child) {
+    //     margin-right: 30px;
+    // }
 }
 
 
 .team-members__photo {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 }
 
 .team-members__name {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--title-text-color);
+    // margin-top: 0;
+    // margin-bottom: 10px;
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.18;
+    // color: var(--title-text-color);
 }
 
 
 .team-members__position {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
+    // margin-top: 0;
+    // margin-bottom: 0;
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 1.18;
 }
