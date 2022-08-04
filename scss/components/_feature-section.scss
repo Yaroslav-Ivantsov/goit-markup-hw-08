@@ -53,9 +53,7 @@
 }
 
 .feature__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-centred;
     margin-bottom: 30px;
     height: 120px;
     border-radius: 4px;

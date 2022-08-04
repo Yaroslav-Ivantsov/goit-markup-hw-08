@@ -13,9 +13,7 @@
 
 .modal-button-close {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-centred;
     padding: 0;
     margin: 0;
     top: 8px;
@@ -41,10 +39,7 @@
 }
 
 .modal-button-send {
-    // @include flex-centred;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex-centred;
     padding: 0;
     width: 200px;
     height: 50px;
