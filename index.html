@@ -470,30 +470,27 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <div class="modal-wrap">
-                <p class="modal-wrap__title">Оставьте свои данные, мы вам перезвоним</p>
-                <form class="form" name="modal-form" autocomplete="on">
-                    <div class="modal-form__field">
-                        <label class="modal-form__label" for="name-user">Имя</label>
+            
+                <form class="modal-form" name="modal-form" autocomplete="on">
+                    <p class="modal-form__title">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="modal-form__field">
+                    <label class="modal-form__label" for="name-user">Имя</label>
                         <div class="modal-form__inner">
                             <input class="modal-form__input" id="name-user" type="text" name="name-user" required>
                             <svg class="modal-form__icon" aria-hidden="true">
                                 <use href="./images/icons.svg#person-modal"></use>
                             </svg>
                         </div>
-                    </div>
-                    <div class="modal-form__field">
-                        <label class="modal-form__label" for="user-phone">Телефон</label>
+                    
+                    <label class="modal-form__label" for="user-phone">Телефон</label>
                         <div class="modal-form__inner">
                             <input class="modal-form__input" id="user-phone" type="tel" name="user-phone" required>
                             <svg class="modal-form__icon" aria-hidden="true">
                                 <use href="./images/icons.svg#phone-modal"></use>
                             </svg>
                         </div>
-                        
-                    </div>
-                    <div class="modal-form__field">
-                        <label class="modal-form__label" for="user-email">Почта</label>
+                
+                    <label class="modal-form__label" for="user-email">Почта</label>
                         <div class="modal-form__inner">
                             <input class="modal-form__input" id="user-email" type="email" name="user-email" required>
                             <svg class="modal-form__icon" aria-hidden="true">
@@ -501,14 +498,12 @@
                             </svg>
                         </div>
                         
-                    </div>
-                    <div class="modal-form__field">
                         <label class="modal-form__label" for="user-comment">Комментарий</label>
-                        <textarea class="modal-form__input modal-form__input--textarea" name="user-comment" id="user-comment" rows="3" placeholder="Введите текст"></textarea>
-                    </div>
+                        <textarea class="modal-form__textarea" name="user-comment" id="user-comment" rows="3" placeholder="Введите текст"></textarea>
+                </div>
                         <label class="checkbox" for="accept-terms">
                             <input class="checkbox__input checkbox__input--visually-hidden" type="checkbox" name="accept-terms" id="accept-terms" required>
-                            Соглашаюсь с рассылкой и принимаю
+                            Соглашаюсь с рассылкой и принимаю&nbsp;
                             <a href="#" class="checkbox__link">Условия договора</a>
                             <svg class="checkbox__check-icon">
                                 <use href="./images/icons.svg#vector-check"></use>
