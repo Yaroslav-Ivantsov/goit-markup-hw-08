@@ -1,5 +1,6 @@
 .logo {
-    // @include logo-modification;
+    @include logo-modification;
+    margin-right: auto;
 
     &__start {
         color: var(--acent-text-color);
